@@ -7,7 +7,7 @@ class Solution {
         while(num>0){
             if(num>=value[i]){
                 ans = ans + str[i];
-                num = num-value[i];
+                num -= value[i];
             }else{
                 i++;
             }
